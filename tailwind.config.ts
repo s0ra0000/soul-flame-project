@@ -15,10 +15,12 @@ const config: Config = {
       },
       colors:{
         "primary": "#20d0d9",
-        "bg-1": "#F2F2F2",
-        "bg-2": "#D9D9D9",
+        "bg-1": "#ffffff",
+        "bg-2": "#f5f4f1",
+        "bg-3": "#b6ccd8",
+        "bg-4": "#fffefb",
         "title": "linear-gradient(90deg, rgba(4,162,180,1) 0%, rgba(34,216,209,1) 100%)",
-        "silver": "#404040"
+        "silver": "#3b3c3d"
       },
       boxShadow:{
         "primary": "0 10px 30px -10px rgba(4,162,180,.6);",

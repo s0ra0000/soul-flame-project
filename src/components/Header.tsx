@@ -3,7 +3,7 @@ import Image from "next/image";
 import { HiOutlineChevronDoubleDown } from "react-icons/hi";
 const Header = () => {
   return (
-    <div className="flex justify-center items-center flex-col h-screen relative bg-bg-1">
+    <div className="flex justify-center items-center flex-col h-screen relative bg-bg-4">
       <Image
         src="/logo.png"
         width={300}
