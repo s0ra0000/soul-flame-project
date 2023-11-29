@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Structure = () => {
   return (
     <div className="h-full w-full bg-bg-4 text-black flex justify-center items-center py-16">
@@ -9,9 +11,14 @@ const Structure = () => {
               &quot;SoulFlare&quot;
             </span>
           </h1>
-          <button className="block bg-primary text-white px-4 py-2 rounded-lg">
-            Open in Figma
-          </button>
+          <Link
+            href="https://www.figma.com/file/hfDcvSCC0tJiWqiTaIoufL/Soul-Flare?type=design&mode=design&t=MbssozdaPdEaqTfQ-1"
+            target="_blank"
+          >
+            <button className="block bg-primary text-white px-4 py-2 rounded-lg">
+              Open in Figma
+            </button>
+          </Link>
         </div>
         <div className="flex flex-wrap w-full gap-4 mt-8">
           <div className="block px-8 py-6 bg-gradient-to-r from-[#d4eaf7] to-[#b6ccd8] to-80% rounded-lg flex-grow shadow-md">
