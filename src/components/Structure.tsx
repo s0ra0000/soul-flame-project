@@ -95,23 +95,6 @@ const Structure = () => {
     },
   }));
 
-  // const [checked, setChecked] = useState<boolean>(false);
-  // const [opened, setOpened] = useState<Array<string>>(["1"]);
-
-  // const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-  //   setChecked(event.target.checked);
-  // };
-
-  // useEffect(() => {
-  //   if (checked) {
-  //     setOpened(
-  //       Array.from({ length: 100 }, (_, index) => (index + 1).toString())
-  //     );
-  //   } else {
-  //     setOpened(["1"]);
-  //   }
-  // }, [checked]);
-
   return (
     <section className="h-full w-full bg-bg-4 text-black flex justify-center items-center py-16">
       <div className="w-[1200px] h-full">
@@ -131,14 +114,6 @@ const Structure = () => {
             </button>
           </Link>
         </div>
-        {/* <div className="flex items-center">
-          <Switch
-            // checked={isAllOpened}
-            // onChange={handleToggleAll}
-            inputProps={{ "aria-label": "controlled" }}
-          />
-          <p className="">Open all</p>
-        </div> */}
         <div className="w-full flex justify-between text-3xl">
           <Box
             sx={{ minHeight: 270, flexGrow: 1, maxWidth: 600, fontSize: 36 }}
@@ -164,7 +139,7 @@ const Structure = () => {
                 >
                   <StyledTreeItem
                     nodeId="8"
-                    label="Navbar"
+                    label="Navbar (Component)"
                     classes={{ label: "label" }}
                   ></StyledTreeItem>
                   <StyledTreeItem
@@ -222,7 +197,7 @@ const Structure = () => {
                   </StyledTreeItem>
                   <StyledTreeItem
                     nodeId="19"
-                    label="Footer"
+                    label="Footer (Component)"
                     classes={{ label: "label" }}
                   />
                 </StyledTreeItem>
@@ -233,7 +208,7 @@ const Structure = () => {
                 >
                   <StyledTreeItem
                     nodeId="91"
-                    label="Navbar"
+                    label="Navbar (Component)"
                     classes={{ label: "label" }}
                   />
                   <StyledTreeItem
@@ -265,7 +240,7 @@ const Structure = () => {
                   </StyledTreeItem>
                   <StyledTreeItem
                     nodeId="92"
-                    label="Footer"
+                    label="Footer (Component)"
                     classes={{ label: "label" }}
                   />
                 </StyledTreeItem>
@@ -276,7 +251,7 @@ const Structure = () => {
                 >
                   <StyledTreeItem
                     nodeId="36"
-                    label="Navbar"
+                    label="Navbar (Component)"
                     classes={{ label: "label" }}
                   />
                   <StyledTreeItem
@@ -340,7 +315,7 @@ const Structure = () => {
                   </StyledTreeItem>
                   <StyledTreeItem
                     nodeId="37"
-                    label="Footer"
+                    label="Footer (Component)"
                     classes={{ label: "label" }}
                   />
                 </StyledTreeItem>
@@ -351,7 +326,7 @@ const Structure = () => {
                 >
                   <StyledTreeItem
                     nodeId="38"
-                    label="Navbar"
+                    label="Navbar (Component)"
                     classes={{ label: "label" }}
                   />
                   <StyledTreeItem
@@ -388,7 +363,7 @@ const Structure = () => {
                   </StyledTreeItem>
                   <StyledTreeItem
                     nodeId="39"
-                    label="Footer"
+                    label="Footer (Component)"
                     classes={{ label: "label" }}
                   />
                 </StyledTreeItem>
@@ -399,22 +374,33 @@ const Structure = () => {
                 >
                   <StyledTreeItem
                     nodeId="46"
-                    label="Navbar"
+                    label="Navbar (Component)"
                     classes={{ label: "label" }}
                   />
                   <StyledTreeItem
                     nodeId="48"
-                    label="Profile Section"
+                    label="Profile Container"
                     classes={{ label: "label" }}
                   >
                     <StyledTreeItem
-                      nodeId="49"
-                      label="Profile Picture"
+                      nodeId="201"
+                      label="Profile Section"
                       classes={{ label: "label" }}
-                    />
+                    >
+                      <StyledTreeItem
+                        nodeId="49"
+                        label="Profile Picture"
+                        classes={{ label: "label" }}
+                      />
+                      <StyledTreeItem
+                        nodeId="50"
+                        label="Personal Information Section"
+                        classes={{ label: "label" }}
+                      />
+                    </StyledTreeItem>
                     <StyledTreeItem
-                      nodeId="50"
-                      label="Personal Information Section"
+                      nodeId="202"
+                      label="Graph Section"
                       classes={{ label: "label" }}
                     />
                   </StyledTreeItem>
@@ -425,13 +411,13 @@ const Structure = () => {
                   >
                     <StyledTreeItem
                       nodeId="52"
-                      label="Result Card"
+                      label="Result Card (Components)"
                       classes={{ label: "label" }}
                     />
                   </StyledTreeItem>
                   <StyledTreeItem
                     nodeId="37"
-                    label="Footer"
+                    label="Footer (Component)"
                     classes={{ label: "label" }}
                   />
                 </StyledTreeItem>
@@ -442,7 +428,7 @@ const Structure = () => {
                 >
                   <StyledTreeItem
                     nodeId="53"
-                    label="Navbar"
+                    label="Navbar (Component)"
                     classes={{ label: "label" }}
                   />
                   <StyledTreeItem
@@ -494,7 +480,7 @@ const Structure = () => {
                   </StyledTreeItem>
                   <StyledTreeItem
                     nodeId="54"
-                    label="Footer"
+                    label="Footer (Component)"
                     classes={{ label: "label" }}
                   />
                 </StyledTreeItem>
@@ -505,7 +491,7 @@ const Structure = () => {
                 >
                   <StyledTreeItem
                     nodeId="65"
-                    label="Navbar"
+                    label="Navbar (Component)"
                     classes={{ label: "label" }}
                   />
                   <StyledTreeItem
@@ -557,7 +543,7 @@ const Structure = () => {
                   </StyledTreeItem>
                   <StyledTreeItem
                     nodeId="74"
-                    label="Footer"
+                    label="Footer (Component)"
                     classes={{ label: "label" }}
                   />
                 </StyledTreeItem>
@@ -608,21 +594,21 @@ const Structure = () => {
                 ></StyledTreeItem>
                 <StyledTreeItem
                   nodeId="504"
-                  label="Test Card"
+                  label="Test Card (Components)"
                   classes={{ label: "label-1" }}
                 >
                   <StyledTreeItem
-                    nodeId="21"
+                    nodeId="521"
                     label=" Name and Type of Test"
                     classes={{ label: "label" }}
                   />
                   <StyledTreeItem
-                    nodeId="22"
+                    nodeId="522"
                     label=" Description of Test"
                     classes={{ label: "label" }}
                   />
                   <StyledTreeItem
-                    nodeId="23"
+                    nodeId="523"
                     label="Start Test Button (Navigate to Test Page)"
                     classes={{ label: "label" }}
                   />
@@ -631,7 +617,28 @@ const Structure = () => {
                   nodeId="505"
                   label="Result Card"
                   classes={{ label: "label-1" }}
-                ></StyledTreeItem>
+                >
+                  <StyledTreeItem
+                    nodeId="530"
+                    label="Test title"
+                    classes={{ label: "label" }}
+                  />
+                  <StyledTreeItem
+                    nodeId="531"
+                    label="Test score"
+                    classes={{ label: "label" }}
+                  />
+                  <StyledTreeItem
+                    nodeId="532"
+                    label="Test data"
+                    classes={{ label: "label" }}
+                  />
+                  <StyledTreeItem
+                    nodeId="533"
+                    label="Button (Show Detailed information)"
+                    classes={{ label: "label" }}
+                  />
+                </StyledTreeItem>
               </StyledTreeItem>
             </TreeView>
           </Box>

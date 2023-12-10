@@ -5,7 +5,7 @@ import { PiGraphFill } from "react-icons/pi";
 import { BsPersonBoundingBox } from "react-icons/bs";
 const SectionOne = () => {
   return (
-    <div className="flex justify-center items-center flex-col h-screen relative bg-bg-2 text-black">
+    <section className="flex justify-center items-center flex-col h-screen relative bg-bg-2 text-black">
       <div className="flex flex-col justify-center w-[1200px] h-full">
         <div className="w-full text-center">
           <h1 className="text-3xl font-bold">Описание проекта</h1>
@@ -66,7 +66,7 @@ const SectionOne = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 export default SectionOne;
